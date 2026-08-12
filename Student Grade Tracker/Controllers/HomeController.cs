@@ -8,6 +8,7 @@ namespace Student_Grade_Tracker.Controllers
     {
         public IActionResult Index()
         {
+            Console.WriteLine("Working");
             return View();
         }
 
